@@ -1,0 +1,230 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+	font-family: Alegreya Sans;
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 940px;
+	    max-width: 100%;
+	}
+}
+
+.btn-primary {
+	background-color: #495742;
+	border-color: #495742;
+}
+
+.navbar {
+	background-color: #495742;
+	height: 3.5rem;
+	padding: 0.5rem 0;
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		height: 2.75rem;
+	}
+}
+
+
+.navbar > .navheading {
+    margin: auto 0;
+   	color: white;
+   	
+}
+
+.navbar > .navheading .navtitle {
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-right: 1.5rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+	.navbar > .navheading .navtitle {
+		font-size: 1.5rem;
+    margin-right: 0.75rem;
+	}
+}
+
+
+.navbar > .navheading .navsubtitle {
+  font-size: 1.55rem;
+  font-weight: 200;
+}
+
+
+@media (max-width: 767px) {
+	.navbar > .navheading .navsubtitle {
+	  font-size: 1.15rem;
+	  font-weight: 200;
+	}
+}
+
+
+.navbar > .navheading .social a {
+	color: white;
+}
+
+.navbar > .navheading .social {
+	margin: 10px 0 0 0;
+}
+
+.navbar > .navheading .social > .icon {
+	margin-top: -5px;
+}
+
+.navmenu {
+	margin: 9px 0 6px;
+	color: #495742;
+}
+
+.navmenu a {
+	color: #495742;
+	text-decoration: none;	
+}
+
+
+.navmenu .navmenuitem {
+	text-transform: uppercase;
+}
+
+
+.banner {
+	background: black;
+	height: 180px;
+	background-image: url(images/header-bg.jpg);
+  background-size: contain;
+}
+
+@media (max-width: 1217px) {
+	.banner {
+		background-image: url(images/header-bg.jpg);
+  	background-size: cover;
+	}
+}
+
+@media (max-width: 575px) {
+	.banner {
+		display: none;
+	}
+}
+
+.icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.main-content {
+		background-image: url(images/marble-tile.jpg);
+		padding-top: 15px;
+}
+
+.main-content .bio-card {
+	background: rgba(255, 255, 255, 0.95);
+	border-radius: 4px;
+  padding: 1.5rem;
+  margin: 0 -0.5rem 1rem;
+
+}
+
+@media (max-width: 575px) {
+	.main-content .bio-card {
+		margin: 0 -1rem 1rem;
+	}
+}
+
+.main-content .bio-card > .bio-card-pic {
+
+}
+
+.main-content .bio-card > .bio-card-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: #495742;
+    margin: 0.5rem 0 0.75rem 0;
+}
+
+
+
+.main-content .bio-card > .bio-card-button {
+	text-align: center;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.main-content .news-item {
+	background: rgba(255, 255, 255, 0.95);
+	border-radius: 4px;
+  padding: 1rem;
+  margin: 0 -0.5rem 0rem -0.5rem;
+}
+
+@media (max-width: 575px) {
+	.main-content .news-item  {
+		margin: 0 -1rem 0rem -1rem;
+	}
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.news-item-heading {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #495742;
+	margin: 0.5em 0 0.25em 0;
+	text-decoration: none;
+}
+
+.news-item-heading a{
+	color: #495742;
+	text-decoration: none;
+}
+
+.divider-curly {
+		margin-top: 1em;
+    height: 60px;
+    border: none;
+    background: url(images/divider-tile.png);
+}
+
+.divider-line {
+	height: 40px;
+	background: url(images/hr-fleur.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+	margin: 1em 0;
+}
+
+.divider-line:last-child {
+	display: none;
+}
+
+.site-footer {
+	padding: 1em 0;
+}

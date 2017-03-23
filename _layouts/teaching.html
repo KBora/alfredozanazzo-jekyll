@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="container">
+
+			<div class="row">
+
+				<div class="col-md-3">
+
+					<div class="bio-card">
+						<img src="{{ site.url }}/assets/images/alfredo-bocelli.jpg" class="img-fluid">			
+						
+						<div class="bio-card-title">Testimonial</div>
+						<div class="bio-card-summary">
+							<p>"Alfredo Zanazzo represents a unique case because he contradicts these classifications by possessing an extraordinary artistic personality as well as excellent teaching skills and expertise."</p>
+							<p><em>Andrea Bocelli, November 2014</em></p>
+						</div>
+						<div class="bio-card-button">
+							<a href="{{ site.baseurl }}{% post_url 2014-11-01-andrea-bocelli-testimonial %}" class="btn btn-primary">Read Testimonial</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-9">
+
+					{{ content }}
+
+					<div class="news-listings">
+						
+					  {% for post in site.categories.teaching %}
+							<div class="news-item">
+									{% if post.youtube-embed-id %}
+					  		  	{% include youtube-embed.html embed-id=post.youtube-embed-id %}
+									{% endif %}
+
+									<div class="news-item-heading">
+										<a href="{{ post.url }}">{{ post.title }}</a>
+									</div>
+
+									<div class="news-item-content">
+										{{ post.excerpt | strip_html }}
+									</div>
+
+					    </div>
+
+					    <div class="divider-line"></div>
+
+					  {% endfor %}
+
+					</div>
+
+				</div>
+
+			</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="container">
+
+			<div class="row">
+
+				<div class="col-md-3">
+
+					<div class="bio-card">
+						<div class="bio-card-pic text-center"><img src="{{ site.url }}/assets/images/alfredo-feisco-circle.png" class="img-fluid">			
+						</div>
+						<div class="bio-card-title">Alfredo Zanazzo</div>
+						<div class="bio-card-summary">
+							Alfredo Zanazzo is a reknown Italian operatic bass whose career has taken him to the foremost opera theatres of Europe, America and Asia. He possesses a true and rich bass voice, reknown for its genuine, dark and powerful timbre.
+						</div>
+						<div class="bio-card-button">
+							<a href="/biography" class="btn btn-primary">Read Biography</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-9">
+
+					<div class="news-listings">
+						
+					  {% for post in site.categories.news  %}
+							<div class="news-item">
+									{% if post.youtube-embed-id %}
+					  		  	{% include youtube-embed.html embed-id=post.youtube-embed-id %}
+									{% endif %}
+
+									<div class="news-item-heading">
+										<a href="{{ post.url }}">{{ post.title }}</a>
+									</div>
+
+									<div class="news-item-content">
+										{{ post.excerpt | strip_html}}
+									</div>
+
+					    </div>
+
+					    <div class="divider-line"></div>
+
+					  {% endfor %}
+
+					</div>
+
+				</div>
+
+			</div>
+
+	</div>
+
+</div>
