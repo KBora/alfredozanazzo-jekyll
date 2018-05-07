@@ -1,0 +1,26 @@
+---
+title: Alfredo Zanazzo
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: alferd@uno.it
+description: 'Alfredo Zanazzo website Operatic bass vocal coach...
+
+'
+baseurl: 
+url: https://alfredozanazzo.com
+twitter_username: jekyllrb
+github_username: jekyll
+facebook_username: alfredo.zanazzo
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
