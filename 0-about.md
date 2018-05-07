@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Biography
-permalink: /biography/
+permalink: "/biography/"
+layout: page
 ---
 
 <img class="img-fluid" src="{{ relative.url }}/assets/images/about-header.jpg">
