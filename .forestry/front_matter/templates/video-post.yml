@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Categories
+  name: categories
+  default: news
+- type: text
+  name: youtube-embed-id
+  label: Youtube Embed ID
+  config:
+    required: true
