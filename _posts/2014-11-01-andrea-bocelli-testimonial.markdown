@@ -1,9 +1,11 @@
 ---
+title: Testimonial from Andrea Bocelli
+date: 2014-11-01 00:00:00 Z
+categories:
+- testimonial
 layout: post
-title:  "Testimonial from Andrea Bocelli"
-date:   2014-11-01
-categories: testimonial
 ---
+
 ## A letter from Andrea Bocelli
 
 During the course of my career and the constant refinement in my learning process over a quarter of a century of practice, I believe I have gained the necessary experience to evaluate who, among my colleagues, has the gift and talent for teaching.

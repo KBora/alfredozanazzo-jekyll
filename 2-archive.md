@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Archive
-permalink: /archive/
+permalink: "/archive/"
+layout: page
 ---
 
 <img src="{{ relative.url }}/assets/images/san-diego.jpg" class="img-fluid">
