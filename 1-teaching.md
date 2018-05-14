@@ -1,7 +1,7 @@
 ---
-layout: teaching
 title: Teaching
-permalink: /teaching/
+permalink: "/teaching/"
+layout: teaching
 ---
 
 # Teaching
