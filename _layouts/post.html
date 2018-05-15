@@ -11,6 +11,11 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+		{% if page.video-embed-url %}
+		 	{% include video-embed.html embed-url=page.video-embed-url %}
+		{% endif %}
+
   </div>
 
   {% if site.disqus.shortname %}

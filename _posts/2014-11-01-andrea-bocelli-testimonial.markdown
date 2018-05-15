@@ -1,8 +1,7 @@
 ---
 title: Testimonial from Andrea Bocelli
 date: 2014-11-01 00:00:00 Z
-categories:
-- testimonial
+categories: testimonial
 layout: post
 ---
 

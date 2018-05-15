@@ -30,8 +30,8 @@ layout: default
 						
 					  {% for post in site.posts %}
 							<div class="news-item">
-									{% if post.youtube-embed-id %}
-					  		  	{% include youtube-embed.html embed-id=post.youtube-embed-id %}
+									{% if post.video-embed-url %}
+					  		  	{% include video-embed.html embed-url=post.video-embed-url %}
 									{% endif %}
 									
 									<div class="news-item-heading">
