@@ -15,8 +15,9 @@ layout: default
 						
 						<div class="bio-card-title">Testimonial</div>
 						<div class="bio-card-summary">
-							<p>"Alfredo Zanazzo represents a unique case because he contradicts these classifications by possessing an extraordinary artistic personality as well as excellent teaching skills and expertise."</p>
-							<p><em>Andrea Bocelli, November 2014</em></p>
+							{% for post in site.categories.configuration %}
+								{{ post.bocelli-summary }}
+							{% endfor %}
 						</div>
 						<div class="bio-card-button">
 							<a href="{{ site.baseurl }}{% post_url 2014-11-01-andrea-bocelli-testimonial %}" class="btn btn-primary">Read Testimonial</a>
