@@ -25,7 +25,6 @@ facebook_username: alfredo.zanazzo
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
