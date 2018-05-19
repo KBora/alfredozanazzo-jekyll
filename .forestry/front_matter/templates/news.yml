@@ -1,0 +1,8 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Video URL
+  name: video-embed-url
+  description: Enter the embed URL of the video from youtube or vimeo
