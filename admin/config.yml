@@ -20,13 +20,18 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'select', multiple: true, options: ["news", "teaching", "recital"] , default: ["news"]}
       - { label: 'YouTube Embed Id', name: 'youtube-embed-id', widget: 'string'}
       - { label: 'YouTube URL', name: 'video-embed-url', widget: 'string'}
-- name: 'pages'
-  label: 'Pages'
-  editor:
-    preview: false
-  files:
-    - label: 'Biography'
-      name: 'Biography'
-      file: '0-about.md'
-      fields:
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Biography'
+        name: 'Biography'
+        file: '0-about.md'
+        fields:
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Archive'
+        name: 'Archive'
+        file: '2-archive.md'
+        fields:
+          - { label: 'Body', name: 'body', widget: 'markdown' }
