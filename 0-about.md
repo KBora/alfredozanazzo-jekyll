@@ -5,8 +5,6 @@ layout: page
 ---
 <img class="img-fluid" src="{{ relative.url }}/assets/images/about-header.jpg">
 
-![](/assets/images/about-header.jpg)
-
 Alfredo Zanazzo, born in Imperia, a small town in the north-western italian coast between Genova and Nice, began a musical career in the mid seventies as pianist-singer of commercial music. Heard by chance while playing in a middle-east club by an Italian baritone, he was advised to change his inclination toward opera singing.
 
 After auditions in Italy, he decided to start training in classical opera and was discovered to possess a true and rich bass voice.
