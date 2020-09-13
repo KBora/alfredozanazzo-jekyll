@@ -30,6 +30,11 @@ collections:
         file: '0-about.md'
         fields:
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Teaching'
+        name: 'Teaching'
+        file: '1-teaching.md'
+        fields:
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Archive'
         name: 'Archive'
         file: '2-archive.md'
