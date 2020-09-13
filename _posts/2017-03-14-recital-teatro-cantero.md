@@ -8,4 +8,4 @@ categories:
 youtube-embed-id: 4oXrSI-4PPk
 video-embed-url: https://www.youtube.com/embed/4oXrSI-4PPk
 ---
-Maestro Alfredo Zanazzo accompanied by Maestro Carlo Bernini, conductor and accompanist of Andrea Bocelli.  Performed at the Teatro Cantero, Genoa.s
+Maestro Alfredo Zanazzo accompanied by Maestro Carlo Bernini, conductor and accompanist of Andrea Bocelli.  Performed at the Teatro Cantero, Genoa.
